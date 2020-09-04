@@ -49,7 +49,7 @@ namespace InformacionFinanciera
                 retiroCuenta = 0;
                 saldoTotal = saldoCuentaInicial;
             }
-            Console.WriteLine($"|||Su nombre es: {nombreCliente} ||| Su numero de cuenta es: {numeroDeCuenta}" +
+            Console.WriteLine($"||||Su nombre es: {nombreCliente} ||| Su numero de cuenta es: {numeroDeCuenta}" +
                 $" ||| Su saldo inicial fue de: {saldoCuentaInicial} ||| ");
             Console.WriteLine($"|||Hizo una consignacion de {consignacionCuenta} " +
                 $"||| Hizo un retiro de {retiroCuenta} ||| Su saldo final es: {saldoTotal}||| ");
